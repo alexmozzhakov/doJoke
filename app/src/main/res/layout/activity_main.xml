@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.doapps.dojoke.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/daDum"
+        android:background="#CCC"
+        android:onClick="daDum"
+        app:layout_heightPercent="50%"
+        app:layout_widthPercent="50%">
+
+        <ImageView
+            android:id="@+id/drumImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/drum"
+            android:scaleType="center"
+            android:src="@drawable/ic_drum"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="#FF4081"
+        android:onClick="cricket"
+        app:layout_heightPercent="50%"
+        app:layout_marginLeftPercent="50%"
+        app:layout_widthPercent="50%">
+
+        <ImageView
+            android:id="@+id/cricketImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/cricket"
+            android:scaleType="center"
+            android:src="@drawable/ic_cricket_silhouette"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="#000"
+        android:onClick="aww"
+        app:layout_heightPercent="50%"
+        app:layout_marginTopPercent="50%"
+        app:layout_widthPercent="50%">
+
+        <ImageView
+            android:id="@+id/awwImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/heart"
+            android:scaleType="center"
+            android:src="@drawable/ic_heart"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="#addadd"
+        android:onClick="fakeLaugh"
+        app:layout_heightPercent="50%"
+        app:layout_marginLeftPercent="50%"
+        app:layout_marginTopPercent="50%"
+        app:layout_widthPercent="50%">
+
+        <ImageView
+            android:id="@+id/laughImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/theater_faces"
+            android:scaleType="center"
+            android:src="@drawable/ic_theater"/>
+    </FrameLayout>
+</android.support.percent.PercentFrameLayout>

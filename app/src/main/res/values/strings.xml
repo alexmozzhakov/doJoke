@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">doJoke</string>
+    <string name="theater_faces">theater faces</string>
+    <string name="drum">drum</string>
+    <string name="cricket">cricket</string>
+    <string name="heart">heart</string>
+</resources>
