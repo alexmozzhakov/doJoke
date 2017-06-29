@@ -9,10 +9,8 @@ android:
     - build-tools-26.0.0
     - android-26
     - android-22
-    - extra-google-google_play_services
     - extra-google-m2repository
     - extra-android-m2repository
-    - extra-android-support
     - sys-img-armeabi-v7a-android-22
 
 before_script:
