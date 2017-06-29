@@ -20,6 +20,7 @@ import org.junit.runner.RunWith
 class MainActivityTest {
 
     @Rule
+    @JvmField
     var mActivityTestRule = ActivityTestRule(MainActivity::class.java)
 
     @Test
