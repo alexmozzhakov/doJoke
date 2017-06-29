@@ -76,6 +76,6 @@ class MainActivity : Activity() {
         cricket.stop()
         aww.stop()
         fakeLaugh.stop()
-        super.onPause()
+        super.onDestroy()
     }
 }

@@ -8,7 +8,6 @@
     tools:context="com.doapps.dojoke.MainActivity">
 
     <FrameLayout
-        android:id="@+id/daDum"
         android:background="#CCC"
         android:onClick="daDum"
         app:layout_heightPercent="50%"
